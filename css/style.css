@@ -1,0 +1,121 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.clearfix{
+    content: "";
+    display: table;
+    clear: both; 
+}
+
+.fl{
+    float: left;
+}
+
+header{
+    background-image: url("../img/jumbo.png");
+    background-size: cover;
+    position: center;
+    height: 500px;
+    padding-top: 25px;
+    position: relative;
+}
+
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+ul{
+    list-style: none;
+}
+
+.navbar{
+    height: 34px;
+    width: 100%;
+    position: relative;
+}
+
+.logo{
+    width: 25%;
+    height: 100%;
+}
+
+nav{
+    width: 50%;
+    height: 100%;
+}
+
+nav ul{
+    text-align: center;
+}
+
+nav ul li{
+    display: inline-block;
+    color: white;
+    line-height: 34px;
+    margin-left: 30px;
+}
+
+.bottone-login{
+    background-color: white;
+    height: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    position: absolute;
+    right: 0;
+}
+
+.box-titolo{
+    color: white;
+    width: 550px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+
+.titolo{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+p{
+    text-align: center;
+}
+
+.bottoni-titolo{
+    text-align: center;
+    margin: 20px;
+}
+
+.bottone1{
+    background-color: white;
+    color: black;
+    display: inline-block;
+    padding: 10px 18px;
+    border-radius: 25px;
+    font-size: 12px;
+}
+
+.bottone2{
+    background-color: black;
+    color: white;
+    display: inline-block;
+    padding: 10px 18px;
+    border-radius: 25px;
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
