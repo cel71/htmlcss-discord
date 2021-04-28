@@ -118,6 +118,8 @@ main{
     margin-top: 60px;
 }
 
+/* immagine rana */
+
 .container2{
     width: 1000px;
     margin: 0 auto;
@@ -141,6 +143,63 @@ main{
     font-size: 30px;
     margin-bottom: 20px;
 }
+
+/* immagine mago */
+
+.container3{
+    background-color: rgb(246, 246, 246);
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 200px;
+}
+
+.mago{
+    background-image: url("../img/item2.svg");
+    width: 50%;
+    height: 350px;
+    background-size: cover;
+}
+
+.mago-text{
+    width: 20%;
+    height: 350px;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 200px;
+}
+
+.text1{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+/* immagine ciclope */
+
+.container4{
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 200px;
+}
+
+.ciclope{
+    background-image: url("../img/item3.svg");
+    width: 50%;
+    height: 350px;
+    background-size: cover;
+}
+
+.ciclope-text{
+    width: 20%;
+    height: 350px;
+    margin-top: 30px;
+    margin-left: 200px;
+}
+
+.text1{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
 
 
 
